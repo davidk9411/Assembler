@@ -11,9 +11,9 @@ Mar. 5th, 2020: Initial Edition Complete
 
 How To?
 * makefile is included with follwoing command:
-> make compile: compile only, no executable file
-> make output: generates executable file only
->> make sure to compile first!!
-> make test: runs executable with input files (input.sia)
-> make reset: deletes output file only
-> make clear: deletes executable, object files, and output file
+1. make compile: compile only, no executable file
+2. make output: generates executable file only
+> make sure to compile first!!
+3. make test: runs executable with input files (input.sia)
+4. make reset: deletes output file only
+5. make clear: deletes executable, object files, and output file
