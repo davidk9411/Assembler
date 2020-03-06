@@ -52,6 +52,26 @@ int assembleLine(char *string, char *bytes) {
 	if (strcmp(words[0], "and") == 0) {
 		return and(bytes);
 	}
+
+	//DIVIDE instruction
+	if (strcmp(words[0], "divide") ==0){
+		return divide(bytes);
+	}
+
+	//MULTIPLY instruction
+	if (strcmp(words[0], "multiply") ==0){
+		return multiply(bytes);
+	}
+
+	//SUBTRACT instruction
+	if (strcmp(words[0], "subtract") ==0){
+		return subtract(bytes);
+	}
+
+	//OR instruction
+	if (strcmp(words[0], "or") ==0){
+		return or(bytes);
+	}
 }
 
 // takes a string and returns register number or -1 if the string doesn't start with "r" or "R"

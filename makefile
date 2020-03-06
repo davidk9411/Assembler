@@ -1,10 +1,10 @@
-all: output test
+all: compile output test
 
 output:
-	gcc -o assembler main.o instruction.o
+	gcc -o assembler main.o 3Rinstruction.o
 
 compile: 
-	gcc -c main.c instruction.c
+	gcc -c main.c 3Rinstruction.c
 
 test: assembler
 	./assembler input.sia output.bin
@@ -14,4 +14,4 @@ reset:
 	rm output.bin
 
 clear: reset
-	rm -r assembler main.o instruction.o 
+	rm -r assembler main.o 3Rinstruction.o 
