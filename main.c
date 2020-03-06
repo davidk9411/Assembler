@@ -44,33 +44,79 @@ int assembleLine(char *string, char *bytes) {
 	}
 
 	//ADD instruction
-	if (strcmp(words[0] ,"add") == 0) {
+	else if (strcmp(words[0] ,"add") == 0) {
 		return add(bytes);
 	}
 
 	//AND instruction
-	if (strcmp(words[0], "and") == 0) {
+	else if (strcmp(words[0], "and") == 0) {
 		return and(bytes);
 	}
 
 	//DIVIDE instruction
-	if (strcmp(words[0], "divide") ==0){
+	else if (strcmp(words[0], "divide") ==0){
 		return divide(bytes);
 	}
 
 	//MULTIPLY instruction
-	if (strcmp(words[0], "multiply") ==0){
+	else if (strcmp(words[0], "multiply") ==0){
 		return multiply(bytes);
 	}
 
 	//SUBTRACT instruction
-	if (strcmp(words[0], "subtract") ==0){
+	else if (strcmp(words[0], "subtract") ==0){
 		return subtract(bytes);
 	}
 
 	//OR instruction
-	if (strcmp(words[0], "or") ==0){
+	else if (strcmp(words[0], "or") ==0){
 		return or(bytes);
+	}
+
+	//BRANCHIFLESS instruction
+	else if (strcmp(words[0], "branchifless") ==0){
+		return branchifless(bytes);
+	}
+
+	//BRANCHIFLESSEQUAL instruction
+	else if (strcmp(words[0], "branchiflessequal") ==0){
+		return branchiflessequal(bytes);
+	}
+
+	//BRANCHIFEQUAL instruction
+	else if (strcmp(words[0], "branchifequal") ==0){
+		return branchifequal(bytes);
+	}
+
+	//BRANCHIFNOTEQUAL instruction
+	else if (strcmp(words[0], "branchifnotequal") ==0){
+		return branchifnotequal(bytes);
+	}
+
+	//BRANCHIFGREATER instruction
+	else if (strcmp(words[0], "branchifgreater") ==0){
+		return branchifgreater(bytes);
+	}
+
+	//BRANCHIFGREATEREQUAL instruction
+	else if (strcmp(words[0], "branchifgreaterequal") ==0){
+		return branchifgreaterequal(bytes);
+	}
+
+	//CALL instruction
+	else if (strcmp(words[0], "call") ==0){
+		return call(bytes);
+	}
+
+	//JUMP instruction
+	else if (strcmp(words[0], "jump") ==0){
+		return jump(bytes);
+	}
+
+	//Error Case
+	else{
+		printf("ERROR: Unable to process instruction\n");
+		exit(1);
 	}
 }
 

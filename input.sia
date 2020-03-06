@@ -4,4 +4,12 @@ divide r1 r2 r3
 multiply r1 r2 r3
 subtract r1 r2 r3
 or r1 r2 r3
+branchifless r1 r2 125
+branchiflessequal r1 r3 122
+branchifequal r3 r5 655
+branchifnotequal r7 r1 755
+branchifgreater r10 r12 844
+branchifgreaterequal r1 r3 423
+call 361245
+jump 1547862
 halt
