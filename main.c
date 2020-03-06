@@ -8,13 +8,9 @@ Date:20200305
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-
-int assembleLine(char *string, char *bytes);
-int getRegister (char* string);
-void getWords(char *string);
+#include "define.h"
 
 char *words[5];
-
 
 /**
 main function:
@@ -41,10 +37,20 @@ int main (int argc, char **argv)  {
 // Figure out from the first word which operation we are doing and do it...
 int assembleLine(char *string, char *bytes) {
 	getWords(string);
+
+	//HALT instruction
+	if (strcmp(words[0], "halt") == 0){
+		return halt(bytes);
+	}
+
+	//ADD instruction
 	if (strcmp(words[0] ,"add") == 0) {
-		bytes[0] = (1 << 4) | getRegister(words[1]);
-		bytes[1] = (getRegister(words[2]) << 4) | getRegister(words[3]);
-		return 2;
+		return add(bytes);
+	}
+
+	//AND instruction
+	if (strcmp(words[0], "and") == 0) {
+		return and(bytes);
 	}
 }
 

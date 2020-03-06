@@ -1,15 +1,17 @@
-output: main.o
-	gcc -o assembler main.o
+all: output test
 
-compile: main.c
-	gcc -c main.c
+output:
+	gcc -o assembler main.o instruction.o
+
+compile: 
+	gcc -c main.c instruction.c
 
 test: assembler
 	./assembler input.sia output.bin
 	od -x --endian=big output.bin
 
-reset: output.bin
+reset: 
 	rm output.bin
 
-clear: assembler main.o
-	rm -r assembler main.o output.bin
+clear: reset
+	rm -r assembler main.o instruction.o 
