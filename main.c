@@ -113,6 +113,16 @@ int assembleLine(char *string, char *bytes) {
 		return jump(bytes);
 	}
 
+	//LOAD instruction
+	else if (strcmp(words[0], "load") ==0){
+		return load(bytes);
+	}
+
+	//STORE instruction
+	else if (strcmp(words[0], "store") ==0){
+		return store(bytes);
+	}
+
 	//Error Case
 	else{
 		printf("ERROR: Unable to process instruction\n");

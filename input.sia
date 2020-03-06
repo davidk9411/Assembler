@@ -12,4 +12,6 @@ branchifgreater r10 r12 844
 branchifgreaterequal r1 r3 423
 call 361245
 jump 1547862
+load r1 r2 15
+store r2 r15 13
 halt

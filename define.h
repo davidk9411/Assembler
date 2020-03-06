@@ -17,3 +17,5 @@ int branchifgreater(char *bytes);
 int branchifgreaterequal(char *bytes);
 int call(char *bytes);
 int jump(char *bytes);
+int load(char *bytes);
+int store(char *bytes);
