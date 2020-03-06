@@ -123,6 +123,21 @@ int assembleLine(char *string, char *bytes) {
 		return store(bytes);
 	}
 
+	//POP instruction
+	else if (strcmp(words[0], "pop") ==0){
+		return pop(bytes);
+	}
+
+	//PUSH instruction
+	else if (strcmp(words[0], "push") ==0){
+		return push(bytes);
+	}
+
+	//PUSH instruction
+	else if (strcmp(words[0], "return") ==0){
+		return rturn(bytes);
+	}
+
 	//Error Case
 	else{
 		printf("ERROR: Unable to process instruction\n");

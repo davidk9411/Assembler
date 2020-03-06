@@ -14,4 +14,7 @@ call 361245
 jump 1547862
 load r1 r2 15
 store r2 r15 13
+pop r1
+push r2
+return
 halt

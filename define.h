@@ -19,3 +19,6 @@ int call(char *bytes);
 int jump(char *bytes);
 int load(char *bytes);
 int store(char *bytes);
+int pop(char *bytes);
+int push(char *bytes);
+int rturn(char *bytes);
