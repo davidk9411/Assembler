@@ -4,7 +4,7 @@
 
 ### LOG:
 Mar. 5th, 2020: Initial Edition Complete
-> Instruction incorporates:
+> Supported Instructions:
 >>ADD, AND, DIVIDE, HALT, MULTIPLY, OR, SUBTRACT, CALL, JUMP,
 >>LOAD, STORE, POP, PUSH, RETURN, MOVE, INTERRUPT,
 >>BRANCHIFSERIES
