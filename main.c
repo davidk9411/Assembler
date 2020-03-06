@@ -133,10 +133,21 @@ int assembleLine(char *string, char *bytes) {
 		return push(bytes);
 	}
 
-	//PUSH instruction
+	//RETURN instruction
 	else if (strcmp(words[0], "return") ==0){
 		return rturn(bytes);
 	}
+
+	//MOVE instruction
+	else if (strcmp(words[0], "move") ==0){
+		return move(bytes);
+	}
+
+	//INTERRUPT instruction
+	else if (strcmp(words[0], "interrupt") ==0){
+		return interrupt(bytes);
+	}
+
 
 	//Error Case
 	else{

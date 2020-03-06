@@ -17,4 +17,6 @@ store r2 r15 13
 pop r1
 push r2
 return
+move r1 -127
+interrupt 1
 halt

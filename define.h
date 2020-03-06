@@ -22,3 +22,5 @@ int store(char *bytes);
 int pop(char *bytes);
 int push(char *bytes);
 int rturn(char *bytes);
+int move(char *bytes);
+int interrupt(char *bytes);
