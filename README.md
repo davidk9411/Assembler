@@ -3,7 +3,7 @@
 ## SP20 ICSI 404 Assignment 2 Assembler
 
 ### LOG:
-Mar. 5th, 2020: 
+Mar. 5th, 2020:
 1.Initial Edition Complete
 + Supported Instructions:
 >ADD, AND, DIVIDE, HALT, MULTIPLY, OR, SUBTRACT, CALL, JUMP,
