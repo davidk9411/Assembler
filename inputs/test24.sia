@@ -1,0 +1,5 @@
+move r1 4
+jump 4
+move r1 10
+interrupt 0
+halt

@@ -9,6 +9,12 @@ Mar. 5th, 2020: Initial Edition Complete
 >>LOAD, STORE, POP, PUSH, RETURN, MOVE, INTERRUPT,
 >>BRANCHIFSERIES
 
+Mar. 10th, 2020: 
+1. Updates on instruction Handling
+2. Test Case, and testing script uploaded
+> For WSL users, dos2unix is required
++ before executing scripts, type "dos2unix test.sh" first
+
 How To?
 * makefile is included with follwoing command:
 1. make compile: compile only, no executable file

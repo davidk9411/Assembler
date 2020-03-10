@@ -1,0 +1,7 @@
+move r1 4
+move r2 100
+store r1 r2 10
+interrupt 1
+load r3 r2 10
+interrupt 0
+halt

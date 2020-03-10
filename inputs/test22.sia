@@ -1,0 +1,6 @@
+move r1 4
+call 4
+move r1 10
+interrupt 0
+return
+halt

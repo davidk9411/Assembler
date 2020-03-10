@@ -1,0 +1,4 @@
+move r1 25
+move r2 -25
+interrupt 0
+halt

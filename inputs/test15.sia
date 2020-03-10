@@ -1,0 +1,6 @@
+move r1 3
+move r2 1
+branchifequal r1 r2 3
+halt
+interrupt 0
+halt

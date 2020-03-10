@@ -1,26 +1,20 @@
+/** ICSI 404 Assignemnt 2
+Assmbler for SIA instruction
+Made by David Kim
+Date:20200305
+*/
+
+//Function definition starts here
+
+//Functions in main.c
 int assembleLine(char *string, char *bytes);
 int getRegister (char* string);
 void getWords(char *string);
 
-int halt(char *bytes);
-int add(char *bytes);
-int and(char *bytes);
-int divide(char *bytes);
-int multiply(char *bytes);
-int subtract(char *bytes);
-int or(char *bytes);
-int branchifless(char *bytes);
-int branchiflessequal(char *bytes);
-int branchifequal(char *bytes);
-int branchifnotequal(char *bytes);
-int branchifgreater(char *bytes);
-int branchifgreaterequal(char *bytes);
-int call(char *bytes);
-int jump(char *bytes);
-int load(char *bytes);
-int store(char *bytes);
-int pop(char *bytes);
-int push(char *bytes);
-int rturn(char *bytes);
+//Functions in instruction.c
+int three_register_inst(char *bytes, int opcode);
+int branch(char *bytes, int brcode);
+int load_store(char *bytes, int opcode);
+int stack_ops(char *bytes, int type);
 int move(char *bytes);
 int interrupt(char *bytes);

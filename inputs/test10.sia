@@ -1,0 +1,6 @@
+move r1 4
+move r2 5
+branchifless r1 r2 3
+halt
+interrupt 0
+halt

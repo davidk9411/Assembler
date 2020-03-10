@@ -1,0 +1,8 @@
+move r1 4
+move r2 5
+branchiflessorequal r1 r2 3
+halt
+branchiflessorequal r1 r1 3
+halt
+interrupt 0
+halt
