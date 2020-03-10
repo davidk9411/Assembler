@@ -3,11 +3,12 @@
 ## SP20 ICSI 404 Assignment 2 Assembler
 
 ### LOG:
-Mar. 5th, 2020: Initial Edition Complete
-> Supported Instructions:
->>ADD, AND, DIVIDE, HALT, MULTIPLY, OR, SUBTRACT, CALL, JUMP,
->>LOAD, STORE, POP, PUSH, RETURN, MOVE, INTERRUPT,
->>BRANCHIFSERIES
+Mar. 5th, 2020: 
+1.Initial Edition Complete
++ Supported Instructions:
+>ADD, AND, DIVIDE, HALT, MULTIPLY, OR, SUBTRACT, CALL, JUMP,
+>LOAD, STORE, POP, PUSH, RETURN, MOVE, INTERRUPT,
+>BRANCHIFSERIES
 
 Mar. 10th, 2020: 
 1. Updates on instruction Handling
