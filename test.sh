@@ -1,5 +1,12 @@
 #!/bin/bash
 
+make
+
+mkdir -p outputs
+mkdir -p outputs/bin
+mkdir -p outputs/text
+mkdir -p outputs/process
+
 SET=$(seq 1 26)
 for index in $SET
 do

@@ -3,17 +3,20 @@
 ## SP20 ICSI 404 Assignment 2 Assembler
 
 ### LOG:
-Mar. 5th, 2020: Initial Edition Complete
-> Supported Instructions:
->>ADD, AND, DIVIDE, HALT, MULTIPLY, OR, SUBTRACT, CALL, JUMP,
->>LOAD, STORE, POP, PUSH, RETURN, MOVE, INTERRUPT,
->>BRANCHIFSERIES
+Mar. 5th, 2020: 
+1. Initial Edition Complete
+Supported Instructions:
+> ADD, AND, DIVIDE, HALT, MULTIPLY, OR, SUBTRACT, CALL, JUMP,
+> LOAD, STORE, POP, PUSH, RETURN, MOVE, INTERRUPT,
+> BRANCHIFSERIES
 
 Mar. 10th, 2020: 
 1. Updates on instruction Handling
 2. Test Case, and testing script uploaded
+* test.sh, reset.sh, print.sh
 > For WSL users, dos2unix is required
 + before executing scripts, type "dos2unix test.sh" first
+3. Minor fixes on bugs (BRANCHIFGREATEROREQUAL)
 
 How To?
 * makefile is included with follwoing command:

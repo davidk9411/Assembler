@@ -1,8 +1,8 @@
 move r1 3
 move r2 1
-branchifgreater r1 r1 3
+branchifgreaterorequal r1 r1 3
 halt
-branchifgreater r2 r1 3
+branchifgreaterorequal r2 r1 3
 halt
 interrupt 0
 halt

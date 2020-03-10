@@ -1,4 +1,4 @@
-all: compile output test
+all: compile output
 
 output:
 	gcc -o assembler main.o instruction.o
@@ -12,5 +12,5 @@ test: assembler
 reset: 
 	rm output.bin
 
-clear: reset
+clear:
 	rm -r assembler main.o instruction.o

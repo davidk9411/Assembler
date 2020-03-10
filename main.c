@@ -106,7 +106,7 @@ int assembleLine(char *string, char *bytes) {
 	}
 
 	//BRANCHIFLESSEQUAL instruction
-	else if (strcmp(words[0], "branchiflessequal") ==0){
+	else if (strcmp(words[0], "branchiflessorequal") ==0){
 		return branch(bytes, 1);
 	}
 
@@ -126,7 +126,7 @@ int assembleLine(char *string, char *bytes) {
 	}
 
 	//BRANCHIFGREATEREQUAL instruction
-	else if (strcmp(words[0], "branchifgreaterequal") ==0){
+	else if (strcmp(words[0], "branchifgreaterorequal") ==0){
 		return branch(bytes, 5);
 	}
 
