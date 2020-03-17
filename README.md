@@ -20,7 +20,7 @@ Mar. 10th, 2020:
 
 Current State: Assignment 2 Submitted, Will create new repo for Assignment 3.
 
-**makefile** Instructions 
+**makefile** instructions 
 * makefile is included with follwoing command:
 1. make compile: compile only, no executable file
 2. make output: generates executable file only
