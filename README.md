@@ -4,30 +4,23 @@
 
 ### LOG:
 Mar. 5th, 2020: 
-1. Initial Edition Complete
+1. **Initial Edition Completed**
 Supported Instructions:
 > ADD, AND, DIVIDE, HALT, MULTIPLY, OR, SUBTRACT, CALL, JUMP,
 > LOAD, STORE, POP, PUSH, RETURN, MOVE, INTERRUPT,
 > BRANCHIFSERIES
 
-Mar. 5th, 2020:
-1.Initial Edition Complete
-+ Supported Instructions:
->ADD, AND, DIVIDE, HALT, MULTIPLY, OR, SUBTRACT, CALL, JUMP,
->LOAD, STORE, POP, PUSH, RETURN, MOVE, INTERRUPT,
->BRANCHIFSERIES
-
 Mar. 10th, 2020: 
-1. Updates on instruction Handling
-2. Test Case, and testing script uploaded
+1. **Updates on instruction Handling**
+2. **Test Case, and testing script uploaded**
 * test.sh, reset.sh, print.sh
-> For WSL users, dos2unix is required
+> *For **WSL** users, **dos2unix** is required*
 + before executing scripts, type "dos2unix test.sh" first
-3. Minor fixes on bugs (BRANCHIFGREATEROREQUAL)
+3. **Minor fixes on bugs (BRANCHIFGREATEROREQUAL)**
 
 Current State: Assignment 2 Submitted, Will create new repo for Assignment 3.
 
-How To?
+**makefile** Instructions 
 * makefile is included with follwoing command:
 1. make compile: compile only, no executable file
 2. make output: generates executable file only
