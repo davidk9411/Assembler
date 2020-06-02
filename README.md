@@ -1,5 +1,5 @@
 # Assembler for Simple Instruction Architecture (SIA)
-This is an assembler for SIA assembly language which takes SIA file as an input and assembles to binary file as an output.
+This is an assembler for SIA machine language which takes SIA file as an input and assembles to binary file as an output.
 
 Note: This is a Project #2 for Spring 2020 SUNY ALBANY ICSI 404 - Assembly Programming and Computer Organization.
 
